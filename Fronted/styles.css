@@ -1,3 +1,26 @@
 .bg-custom-green{
-    background-color: #28a745 !important; 
+    background-color: #2c6439 !important; 
+}
+
+.bg-custom-low-green{
+    background-color: #d1d72e !important;
+}
+
+/* Zona de Drag & Drop */
+.drop-zone {
+    border: 3px dashed #ccc;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.drop-zone:hover {
+    border-color: #007bff;
+    background-color: #e9ecef;
+}
+
+.drop-zone.drag-over {
+    border-color: #28a745;
+    background-color: #d4edda;
 }
