@@ -27,7 +27,7 @@ function handleFiles(files){
     processBtn.disabled = false;
     clearBtn.disabled = false;
 
-    consolo.log('Archivos seleccionados', selectedFiles);
+    console.log('Archivos seleccionados', selectedFiles);
 }
 
 //+++++++ MOSTRAR LISTA DE ARCHIVOS ++++++++++
